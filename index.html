@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./Assets/CSS/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+      <nav>
+        <h1>SUBASH CHANDRA BOSE &nbsp; K T</h1>
+        <ul id="sidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark close" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars close" onclick="openmenu()"></i>
+      </nav>
+        
+        
+         
+        
+      </div>
+      <div class="headText">
+        <h2>Hi, I'm <span>Subash</span></h2>
+        <h4>Full-stack Developer</h4>
+        <div class="typeAnimae">
+          <div class="iam">Expertice in</div>
+          <div class="text"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container1">
+        <div class="row">
+          <div class="aboutCol-1">
+            <img src="/Assets/image/Subash (2).jpg" alt="" />
+          </div>
+          <div class="aboutCol-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="mybio">
+              I am Subash from Dindigul, Tamil Nadu. I completed my <b>Master of Computer Applications ( MCA )</b> at Gandhigram Rural University in 2023 
+              and a <b>Full-stack Developer</b>  Course at Code Purple Academy. I have expertise in frontend technologies 
+              like HTML5, CSS, Bootstrap, Tailwind CSS, JavaScript, and React JS, and backend technologies such as Django,
+               PostgreSQL, and MySQL. Additionally, I am skilled in using <b>GitHub, SourceTree, Postman,</b> and have strong domain knowledge.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('languages')">Languages</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Full-stack Development</span><br />Web App Development</li>
+                <li><span>web Development</span><br />website Development</li>
+                <li><span>Testing</span><br />Manual Testing</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="languages">
+              <ul>
+                <li><span>Frontend</span><br />
+                  <p>HTML</p>
+                  <p>Css</p>
+                  <p>JavaScript</p>
+                  <p>Bootstrap</p>
+                  <p>Tailwindcss</p>
+                  <p>React Js <span>FrameWork</span></p>
+                  </li>
+                <li><span>Backend</span><br />
+                  <p>Python</p>
+                  <p>DJango <span>FrameWork</span></p>
+                  </li>
+                  <li><span>Database</span><br />
+                    <p>MySQL</p>
+                    <p>PostgreSQL</p>
+                    </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>Full-stack Development<br /><span>Add-on Course</span></li>
+                <li>Master of Computer Applications ( MCA )<br /><span>2021-2023</span></li>
+                <li>B.sc Information Technology B.Sc( IT )<br /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container1">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p class="mybio">
+              I specialize in web development, creating dynamic, responsive user interfaces and robust backend systems. 
+              I efficiently manage projects using various development tools, ensuring high-quality and scalable applications.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Fullstack Development</h2>
+            <p class="mybio">
+              I am skilled in full-stack development, creating responsive interfaces and robust backend systems. I handle UI/UX design, server-side logic,
+               and database management, with expertise in version control, API integration, and deployment.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-codepen"></i>
+            <h2>FrontEnd Development</h2>
+            <p class="mybio">
+              I am proficient in frontend development, focusing on creating visually appealing and interactive web experiences. I handle layout design,
+               user interface functionality, and ensure compatibility across different devices and screen sizes.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container1">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.eTCbdR_AFzbqHMPXhrJWUQHaEK&pid=Api&P=0&h=180" alt="">
+            <div class="layer">
+              <h3>Github Account</h3>
+              <p class="mybio">For more details on my projects and contributions, visit my GitHub account here..</p>
+            <a href="https://github.com/Subashchandr7?tab=repositories" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          
+          <div class="work">
+            <img src="https://wallpaperaccess.com/full/2068758.jpg"  alt="">
+            <div class="layer">
+              <h3>Linked-in</h3>
+              <p class="mybio">To learn more about my professional background and connect, visit my LinkedIn profile here..</p>
+            <a href="https://www.linkedin.com/in/subashchandr07/"  target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://www.theindianwire.com/wp-content/uploads/2021/04/HDFC-bank.png" alt="">
+            <div class="layer">
+              <h3>Mini Bank</h3>
+              <p>To explore my Mini Bank project and see it in action, visit here.</p>
+            <a href="https://mini-bankjs.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://image.freepik.com/psd-gratuitas/modelo-de-banner-de-loja-de-moda_23-2148675197.jpg" alt="">
+            <div class="layer">
+              <h3>Fashion Store</h3>
+              <p>To explore my Fashion Store project and see it in action, visit here.</p>
+            <a href="https://g-fashion-nu.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://images.pexels.com/photos/1166643/pexels-photo-1166643.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <div class="layer">
+              <h3>DJango School Portfolio</h3>
+              <p>Stay tuned for updates and a showcase of my progress here.</p>
+            <a href="" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://images.pexels.com/photos/1166643/pexels-photo-1166643.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <div class="layer">
+              <h3>React JS Fresh Store</h3>
+              <p>Stay tuned for updates and a showcase of my progress here.</p>
+            <a href="https://weather-app-omega-hazel.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container1">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>subashchandr335@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9944532555</p>
+        <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/11VP_-ymw1f0UPHGRv0KtTl9KPY-5-Y_b/view?usp=drive_link" download class="btn btn2" target="_blank">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name">
+              <input type="email" name="Email" placeholder="Your Email">
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 2024 Subash &nbsp; <i class="fa-solid fa-laptop-file"></i> &nbsp; All rights reserved </p>
+        </div>
+    </div>
+    <script src="./Assets/JS/index.js"></script>
+  </body>
+  <script>
+    var typing=new Typed(".text", {
+        strings: ["", "Frontend", "CssFrameWorks", "Backend", "DataBase", "Domains", "Code Quality"],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+    });
+ </script>
+</html>
